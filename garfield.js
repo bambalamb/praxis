@@ -85,7 +85,7 @@ function random() {
 }
 
 function latest() {
-    var url = archive + todayYear + '/' + formattedToday + '.gif';
+    var url = 'https://d1ejxu6vysztl5.cloudfront.net/comics/garfield/' + todayYear + '/' + formattedToday + '.gif';
     return url;
 }
 
