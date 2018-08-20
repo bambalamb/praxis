@@ -5,7 +5,7 @@ const garf = require('./garfield.js');
 
 client.login(config.token).then(() => {
 
-    client.channels.get('419250097373839360').send({files: [garf.latest()]}).destory();
+    client.channels.get('419250097373839360').send({files: [garf.latest()]}).destroy();
 
 });
 
