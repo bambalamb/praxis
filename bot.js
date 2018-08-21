@@ -20,7 +20,11 @@ client.on("message", (message) => {
 const command = args.shift().toLowerCase();
 if (!message.content.startsWith(config.prefix) && !message.content.startsWith(config.garfix)) return;
 
-else if (message.content.startsWith(config.prefix)) {
+    else if (command === "guillotine"){
+    message.channel.send({files: https://cdn.britannica.com/27/194327-004-60511886.jpg})
+    }
+    
+    else if (message.content.startsWith(config.prefix)) {
 
     if (message.content.includes("good bot") || message.content.includes("Good bot")) {
         message.channel.send("*uwu* thanks daddy");
