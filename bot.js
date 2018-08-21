@@ -32,8 +32,12 @@ if (!message.content.startsWith(config.prefix) && !message.content.startsWith(co
     }
         
     else if (command === "guillotine"){
-    message.channel.send({files: 'https://cdn.britannica.com/27/194327-004-60511886.jpg'})
+    message.channel.send(
+        
+        {files: ["https://cdn.britannica.com/27/194327-004-60511886.jpg"]});
     }
+        
+
         
     else if (command === "pet") {
         message.channel.send("*purr*");
