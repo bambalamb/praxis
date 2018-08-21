@@ -20,9 +20,6 @@ client.on("message", (message) => {
 const command = args.shift().toLowerCase();
 if (!message.content.startsWith(config.prefix) && !message.content.startsWith(config.garfix)) return;
 
-    else if (command === "guillotine"){
-    message.channel.send({files: https://cdn.britannica.com/27/194327-004-60511886.jpg})
-    }
     
     else if (message.content.startsWith(config.prefix)) {
 
@@ -33,6 +30,11 @@ if (!message.content.startsWith(config.prefix) && !message.content.startsWith(co
     else if (command === "vore") {
         message.channel.send("*vores* <@!266334592594608130>");
     }
+        
+    else if (command === "guillotine"){
+    message.channel.send({files: https://cdn.britannica.com/27/194327-004-60511886.jpg})
+    }
+        
     else if (command === "pet") {
         message.channel.send("*purr*");
     }
