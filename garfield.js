@@ -61,7 +61,7 @@ function request(year, month, day) {
     var dd = (day < 9 ? '0' : '') + day;
     var yy = moment(year).format("YY");
     var url = archive + year + '/ga' + yy + mm + dd + '.gif';
-    console.log(url);
+
     return url;
 }
 
@@ -82,6 +82,7 @@ function random() {
     var randomizedMonth = (month < 9 ? '0' : '') + month;
     var randomizedDay = (day < 9 ? '0' : '') + day;
     var url = archive + randomYear + '/ga' + moment(randomYear).format("YY") + randomizedMonth + randomizedDay + '.gif';
+    console.log(url);
     return url;
 }
 
