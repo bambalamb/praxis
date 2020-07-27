@@ -12,7 +12,7 @@ var today = new Date();
 var todayYear = today.getFullYear();
 var todayMonth = today.getMonth();
 var todayDay = today.getDate();
-var formattedToday = moment(today).format("YYYY-MM-DD");
+var formattedToday = moment(today).format("YYMMDD");
 var dayLength = 24*60*60*1000;
 var comicCount = Math.round(Math.abs((start.getTime() - today.getTime())/(dayLength)));
 
@@ -85,7 +85,7 @@ function random() {
 }
 
 function latest() {
-    var url = 'https://d1ejxu6vysztl5.cloudfront.net/comics/garfield/' + todayYear + '/' + formattedToday + '.gif';
+    var url = 'picayune.uclick.com/comics/ga/' + todayYear + '/ga' + formattedToday + '.gif';
     return url;
 }
 
