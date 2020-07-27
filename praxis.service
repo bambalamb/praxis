@@ -4,7 +4,7 @@ Description=Praxis Bot
 [Service]
 ExecStart=/var/www/services/praxis/bot.js
 Restart=always
-User=nobody
+User=nogroup
 # Note RHEL/Fedora uses 'nobody', Debian/Ubuntu uses 'nogroup'
 Group=nobody  
 Environment=PATH=/usr/bin:/usr/local/bin
