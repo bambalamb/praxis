@@ -81,7 +81,7 @@ function random() {
     var randomYear = Math.floor(Math.random() * (todayYear - 1978) + 1978); //get a random year from 1978 to today
     var randomizedMonth = (month < 9 ? '0' : '') + month;
     var randomizedDay = (day < 9 ? '0' : '') + day;
-    var url = archive + randomYear + '/ga' + randomYear + '-' + randomizedMonth + '-' + randomizedDay + '.gif';
+    var url = archive + randomYear + '/ga' + moment(randomYear).format("YY") + randomizedMonth + randomizedDay + '.gif';
     return url;
 }
 
