@@ -60,7 +60,7 @@ function request(year, month, day) {
     var mm = (month < 9 ? '0' : '') + month;
     var dd = (day < 9 ? '0' : '') + day;
     var yy = moment(year).format("YY");
-    var url = archive + year + '/' + yy + mm + dd + '.gif';
+    var url = archive + year + '/ga' + yy + mm + dd + '.gif';
     console.log(url);
     return url;
 }
@@ -81,7 +81,7 @@ function random() {
     var randomYear = Math.floor(Math.random() * (todayYear - 1978) + 1978); //get a random year from 1978 to today
     var randomizedMonth = (month < 9 ? '0' : '') + month;
     var randomizedDay = (day < 9 ? '0' : '') + day;
-    var url = archive + randomYear + '/' + randomYear + '-' + randomizedMonth + '-' + randomizedDay + '.gif';
+    var url = archive + randomYear + '/ga' + randomYear + '-' + randomizedMonth + '-' + randomizedDay + '.gif';
     return url;
 }
 
