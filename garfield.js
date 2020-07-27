@@ -7,7 +7,7 @@ var moment = require('./moment');
 
 var archive = 'http://picayune.uclick.com/comics/ga/'
 var start = new Date("1978-06-19"); //Garfield started in June 19, 1978
-var formattedStart = moment(start).format("YYYY-MM-DD"); //format the date object to yyyy-mm-dd with 'moment'
+var formattedStart = moment(start).format("YYMMDD"); //format the date object to yyyy-mm-dd with 'moment'
 var today = new Date();
 var todayYear = today.getFullYear();
 var todayMonth = today.getMonth();
@@ -59,7 +59,8 @@ function request(year, month, day) {
     }
     var mm = (month < 9 ? '0' : '') + month;
     var dd = (day < 9 ? '0' : '') + day;
-    var url = archive + year + '/' + year + '-' + mm + '-' + dd + '.gif';
+    var yy = moment(year).format(YY);
+    var url = archive + year + '/' + yy + mm + dd + '.gif';
     console.log(url);
     return url;
 }
