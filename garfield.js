@@ -5,7 +5,7 @@ var moment = require('./moment');
 
 // ------ THE SCRIPT ------
 
-var archive = 'https://d1ejxu6vysztl5.cloudfront.net/comics/garfield/'
+var archive = 'http://picayune.uclick.com/comics/ga/'
 var start = new Date("1978-06-19"); //Garfield started in June 19, 1978
 var formattedStart = moment(start).format("YYYY-MM-DD"); //format the date object to yyyy-mm-dd with 'moment'
 var today = new Date();
@@ -85,7 +85,7 @@ function random() {
 }
 
 function latest() {
-    var url = 'picayune.uclick.com/comics/ga/' + todayYear + '/ga' + formattedToday + '.gif';
+    var url = 'http://picayune.uclick.com/comics/ga/' + todayYear + '/ga' + formattedToday + '.gif';
     return url;
 }
 
