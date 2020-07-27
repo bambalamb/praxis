@@ -59,7 +59,7 @@ function request(year, month, day) {
     }
     var mm = (month < 9 ? '0' : '') + month;
     var dd = (day < 9 ? '0' : '') + day;
-    var yy = moment(year).format(YY);
+    var yy = moment(year).format("YY");
     var url = archive + year + '/' + yy + mm + dd + '.gif';
     console.log(url);
     return url;

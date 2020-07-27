@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bd81327-1043-4894-bde2-a717d2e06978" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/garfield.js" beforeDir="false" afterPath="$PROJECT_DIR$/garfield.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +30,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595867134738</updated>
-      <workItem from="1595867136191" duration="828000" />
+      <workItem from="1595867136191" duration="891000" />
     </task>
     <servers />
   </component>
