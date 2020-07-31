@@ -1,1 +1,231 @@
-{"tendencies":["Socialist","Communist","Democratic","People's","Union","United","Anarchist","Maoist","Marxist","Marxist-Leninist","Leninist","Trotskyite","Front","Religious","Atheist","Holy","Christian","Social","Communal","Vanguard","New","Anarcho","Environmentalist","Ecological","Transhumanist","Social","Technocratic","Luxury","Space","Left-Libertarian","Collaborative","Utopian","Ba'athist","Feminist","Cybernetic","Queer","Accelerationist","Liberation","Revisionist","Anti-revisionist","Bolshevik","Army","Indigenous","Edgy","Third-World","Conservative","Workers","Posadist","Hoxhaist","Cooperative"],"parties":[{"name":"Ecological Furry","members":[]},{"name":"Cybernetic Furry","members":[]},{"name":"Revisionist Furry","members":[]},{"name":"Cybernetic Ecological Furry","members":["340188256400441344"]},{"name":"Revisionist Furry","members":[]},{"name":"Ba'athist Revisionist Furry","members":[]},{"name":"Environmentalist Furry","members":[]},{"name":"Socialist Environmentalist Furry","members":[]},{"name":"Luxury Socialist Environmentalist Furry","members":[]},{"name":"Christian Luxury Socialist Environmentalist Furry","members":[]},{"name":"Communist Furry","members":[]},{"name":"Queer Communist Furry","members":["165917853143400449"]},{"name":"Liberation Queer Communist Furry","members":[]},{"name":"Collaborative Liberation Queer Communist Furry","members":[]},{"name":"Collaborative Collaborative Liberation Queer Communist Furry","members":[]},{"name":"Vanguard Collaborative Collaborative Liberation Queer Communist Furry","members":[]},{"name":"Trotskyite Vanguard Collaborative Collaborative Liberation Queer Communist Furry","members":[]},{"name":"Union Queer Communist Furry","members":[]},{"name":"Space Christian Luxury Socialist Environmentalist Furry","members":[]},{"name":"Maoist Union Queer Communist Furry","members":[]},{"name":"Ba'athist Maoist Union Queer Communist Furry","members":[]},{"name":"Luxury Furry","members":[]},{"name":"Cybernetic Luxury Furry","members":[]},{"name":"Bolshevik Furry","members":[]},{"name":"Bolshevik Space Christian Luxury Socialist Environmentalist Furry","members":["230150087202963456"]},{"name":"Revisionist Bolshevik Furry","members":[]},{"name":"Accelerationist Queer Communist Furry","members":[]},{"name":"Third-World Queer Communist Furry","members":[]},{"name":"New Third-World Queer Communist Furry","members":[]},{"name":"Marxist-Leninist New Third-World Queer Communist Furry","members":[]},{"name":"Liberation Marxist-Leninist New Third-World Queer Communist Furry","members":[]},{"name":"Revisionist Furry","members":[]},{"name":"Ba'athist Revisionist Furry","members":[]},{"name":"Revisionist Queer Communist Furry","members":[]},{"name":"Vanguard Revisionist Queer Communist Furry","members":[]},{"name":"Posadist Vanguard Revisionist Queer Communist Furry","members":[]},{"name":"Social Posadist Vanguard Revisionist Queer Communist Furry","members":[]},{"name":"United Queer Communist Furry","members":[]},{"name":"Revisionist United Queer Communist Furry","members":[]},{"name":"Cybernetic Queer Communist Furry","members":["250945867069128705"]},{"name":"Indigenous Queer Communist Furry","members":["266334592594608130"]}],"power":"Queer Communist Furry"}
+{
+  "tendencies": [
+    "Socialist",
+    "Communist",
+    "Democratic",
+    "People's",
+    "Union",
+    "United",
+    "Anarchist",
+    "Maoist",
+    "Marxist",
+    "Marxist-Leninist",
+    "Leninist",
+    "Trotskyite",
+    "Front",
+    "Religious",
+    "Atheist",
+    "Holy",
+    "Christian",
+    "Social",
+    "Communal",
+    "Vanguard",
+    "New",
+    "Anarcho",
+    "Environmentalist",
+    "Ecological",
+    "Transhumanist",
+    "Social",
+    "Technocratic",
+    "Luxury",
+    "Space",
+    "Left-Libertarian",
+    "Collaborative",
+    "Utopian",
+    "Ba'athist",
+    "Feminist",
+    "Cybernetic",
+    "Queer",
+    "Accelerationist",
+    "Liberation",
+    "Revisionist",
+    "Anti-revisionist",
+    "Bolshevik",
+    "Army",
+    "Indigenous",
+    "Edgy",
+    "Third-World",
+    "Conservative",
+    "Workers",
+    "Posadist",
+    "Hoxhaist",
+    "Cooperative"
+  ],
+  "parties": [
+    {
+      "name": "Ecological Furry",
+      "members": []
+    },
+    {
+      "name": "Cybernetic Furry",
+      "members": []
+    },
+    {
+      "name": "Revisionist Furry",
+      "members": []
+    },
+    {
+      "name": "Cybernetic Ecological Furry",
+      "members": [
+        "340188256400441344"
+      ]
+    },
+    {
+      "name": "Revisionist Furry",
+      "members": []
+    },
+    {
+      "name": "Ba'athist Revisionist Furry",
+      "members": []
+    },
+    {
+      "name": "Environmentalist Furry",
+      "members": []
+    },
+    {
+      "name": "Socialist Environmentalist Furry",
+      "members": []
+    },
+    {
+      "name": "Luxury Socialist Environmentalist Furry",
+      "members": []
+    },
+    {
+      "name": "Christian Luxury Socialist Environmentalist Furry",
+      "members": []
+    },
+    {
+      "name": "Communist Furry",
+      "members": []
+    },
+    {
+      "name": "Queer Communist Furry",
+      "members": [
+        "165917853143400449"
+      ]
+    },
+    {
+      "name": "Liberation Queer Communist Furry",
+      "members": []
+    },
+    {
+      "name": "Collaborative Liberation Queer Communist Furry",
+      "members": []
+    },
+    {
+      "name": "Collaborative Collaborative Liberation Queer Communist Furry",
+      "members": []
+    },
+    {
+      "name": "Vanguard Collaborative Collaborative Liberation Queer Communist Furry",
+      "members": []
+    },
+    {
+      "name": "Trotskyite Vanguard Collaborative Collaborative Liberation Queer Communist Furry",
+      "members": []
+    },
+    {
+      "name": "Union Queer Communist Furry",
+      "members": []
+    },
+    {
+      "name": "Space Christian Luxury Socialist Environmentalist Furry",
+      "members": []
+    },
+    {
+      "name": "Maoist Union Queer Communist Furry",
+      "members": []
+    },
+    {
+      "name": "Ba'athist Maoist Union Queer Communist Furry",
+      "members": []
+    },
+    {
+      "name": "Luxury Furry",
+      "members": []
+    },
+    {
+      "name": "Cybernetic Luxury Furry",
+      "members": []
+    },
+    {
+      "name": "Bolshevik Furry",
+      "members": []
+    },
+    {
+      "name": "Bolshevik Space Christian Luxury Socialist Environmentalist Furry",
+      "members": [
+        "230150087202963456"
+      ]
+    },
+    {
+      "name": "Revisionist Bolshevik Furry",
+      "members": []
+    },
+    {
+      "name": "Accelerationist Queer Communist Furry",
+      "members": []
+    },
+    {
+      "name": "Third-World Queer Communist Furry",
+      "members": []
+    },
+    {
+      "name": "New Third-World Queer Communist Furry",
+      "members": []
+    },
+    {
+      "name": "Marxist-Leninist New Third-World Queer Communist Furry",
+      "members": []
+    },
+    {
+      "name": "Liberation Marxist-Leninist New Third-World Queer Communist Furry",
+      "members": []
+    },
+    {
+      "name": "Revisionist Furry",
+      "members": []
+    },
+    {
+      "name": "Ba'athist Revisionist Furry",
+      "members": []
+    },
+    {
+      "name": "Revisionist Queer Communist Furry",
+      "members": []
+    },
+    {
+      "name": "Vanguard Revisionist Queer Communist Furry",
+      "members": []
+    },
+    {
+      "name": "Posadist Vanguard Revisionist Queer Communist Furry",
+      "members": []
+    },
+    {
+      "name": "Social Posadist Vanguard Revisionist Queer Communist Furry",
+      "members": []
+    },
+    {
+      "name": "United Queer Communist Furry",
+      "members": []
+    },
+    {
+      "name": "Revisionist United Queer Communist Furry",
+      "members": []
+    },
+    {
+      "name": "Cybernetic Queer Communist Furry",
+      "members": [
+        "250945867069128705"
+      ]
+    },
+    {
+      "name": "Indigenous Queer Communist Furry",
+      "members": [
+        "266334592594608130"
+      ]
+    }
+  ],
+  "power": "Queer Communist Furry"
+}
