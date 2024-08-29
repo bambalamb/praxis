@@ -1,5 +1,5 @@
 # Use an official Node.js runtime as the base image
-FROM node:16
+FROM node:20
 
 # Set the working directory in the container
 WORKDIR /usr/src/app
@@ -11,12 +11,13 @@ COPY package*.json ./
 RUN npm install
 
 # Copy the bot's source code and configuration files
-COPY bot.js .
+COPY main.js .
 COPY config.json .
-COPY garfield.js .
-COPY moment.js .
+COPY commands.js .
+COPY garfieldModule.js .
+COPY scenes.js .
 COPY parties.json .
 COPY scenes.json .
 
 # Command to run the bot
-CMD [ "node", "bot.js" ]
+CMD [ "node", "main.js" ]
